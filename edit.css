@@ -10,19 +10,7 @@
   display: none;
 }
 
-.edit .p0 {
-    display: none;
-}
-
-.edit .p1 {
-    display: none;
-}
-
-.edit .p2 {
-    display: none;
-}
-
-.edit .p3 {
+.edit .p0, .edit .p1, .edit .p2, .edit .p3 {
     display: none;
 }
 
