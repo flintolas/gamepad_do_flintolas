@@ -1,21 +1,17 @@
 .controller.edit {
-  background: url(https://raw.githubusercontent.com/flintolas/gamepad_do_flintolas/main/base.svg);
+  background: url(assets/base.svg);
 }
 
 .edit.disconnected {
-  background: url(https://raw.githubusercontent.com/flintolas/gamepad_do_flintolas/main/disconnected.svg);
+  background: url(assets/disconnected.svg);
 }
 
-.edit .quadrant {
+.edit .quadrant, .edit .p0, .edit .p1, .edit .p2, .edit .p3 {
   display: none;
 }
 
-.edit .p0, .edit .p1, .edit .p2, .edit .p3 {
-    display: none;
-}
-
 .edit .back, .edit .start {
-    background: url(https://raw.githubusercontent.com/flintolas/gamepad_do_flintolas/main/start-select.svg);
+    background: url(assets/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -36,7 +32,7 @@
 
 .edit .button {
   position: absolute;
-  background: url(https://raw.githubusercontent.com/flintolas/gamepad_do_flintolas/main/abxy.svg);
+  background: url(assets/abxy.svg);
 }
 
 .edit .button.pressed {
